@@ -65,7 +65,7 @@ global.message = {
 module.exports = {
   botname: process.env.BotName || "DanDy MD", 
   author: process.env.Author || "@DanDyBots",
-  packname: process.env.PackName || "Queen MD",
+  packname: process.env.PackName || "SGenius MD",
   socialLink: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© DanDy Bot",
   prefa: process.env.Prefix || ['*'],
@@ -107,7 +107,7 @@ module.exports = {
 // Ignore them 👇🏻
 global.botname = process.env.BotName || "DandyMD" 
 global.author = process.env.Author || "@DanDyBots" 
-global.packname = process.env.PackName || "Queen MD" 
+global.packname = process.env.PackName || "SGenius MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© DanDy Bot" 
 global.prefa = process.env.Prefix || ['*'] 
