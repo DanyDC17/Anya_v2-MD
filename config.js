@@ -74,12 +74,12 @@ module.exports = {
   ownernumber: process.env.Owner_Number || "573234846123",
   instagramId: process.env.Insta || "8.08_only_mine",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+  mongoUrl: process.env.MongoDB || "Enter",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID", 
+  sessionId: process.env.SESSION_ID || "Vk42R_Queen-Anya_TR_Queen-Anya_HR_Queen-Anya_nc=", 
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
@@ -115,7 +115,7 @@ global.themeemoji = process.env.ThemeEmoji || "🎐"
 global.ownername = process.env.Owner_Name || "DanDyMD" 
 global.ownernumber = process.env.Owner_Number || "573014214161" 
 global.adress = process.env.Continent || "Asia, India, Assam, America" 
-global.timezone = process.env.TimeZone || "America/Colombia" 
+global.timezone = process.env.TimeZone || "America/Colombo" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
   
