@@ -63,7 +63,7 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "DanDy MD", 
+  botname: process.env.BotName || "SGenius MD", 
   author: process.env.Author || "@DanDyBots",
   packname: process.env.PackName || "SGenius MD",
   socialLink: process.env.Web || "https://github.com/PikaBotz",
@@ -71,7 +71,7 @@ module.exports = {
   prefa: process.env.Prefix || ['*'],
   themeemoji: process.env.ThemeEmoji || "🎐",
   ownername: process.env.Owner_Name || "DanDyMD",
-  ownernumber: process.env.Owner_Number || "573014214161",
+  ownernumber: process.env.Owner_Number || "573234846123",
   instagramId: process.env.Insta || "8.08_only_mine",
   warns: process.env.Warns_Limits || 3,
   mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
@@ -105,7 +105,7 @@ module.exports = {
 
 
 // Ignore them 👇🏻
-global.botname = process.env.BotName || "DandyMD" 
+global.botname = process.env.BotName || "SGenius MD" 
 global.author = process.env.Author || "@DanDyBots" 
 global.packname = process.env.PackName || "SGenius MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
